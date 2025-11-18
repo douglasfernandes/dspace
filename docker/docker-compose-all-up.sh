@@ -1,8 +1,15 @@
 #!/bin/bash
 #Autor: Douglas Fernandes / UFPB
 export DOCKER_OWNER="dspace"
+#obter em https://hub.docker.com/r/dspace/dspace/tags
+#export DSPACE_VER="dspace-9.1"
 export DSPACE_VER="dspace-8.1"
 export DSPACE_SSL="false"
+export DSPACE_POSTGRES_HOST="dspacedb"
+export DSPACE_POSTGRES_PORT="5432"
+export DSPACE_POSTGRES_USER="dspace"
+export DSPACE_POSTGRES_PASSWORD="dspace"
+export DSPACE_POSTGRES_DB="dspace"
 
 #Obtém o IP
 export DSPACE_HOST="$(hostname -I | cut -f 1 -d' ')"
