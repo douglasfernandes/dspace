@@ -1,0 +1,5 @@
+rest:
+  ssl: ${DSPACE_SSL}
+  host: ${DSPACE_HOST}
+  port: 443
+  nameSpace: /server
